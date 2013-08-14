@@ -1,0 +1,4 @@
+[submodule "ex/nc-cartogram"]
+	path = ex/nc-cartogram
+	url = https://gist.github.com/6185526.git
+	branch = master
