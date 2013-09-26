@@ -117,8 +117,8 @@
         dZ = b.Z - aZ;
     return function(t) {
       a.X = aX + dX * t;
-      a.u = aY + dY * t;
-      a.v = aZ + dZ * t;
+      a.Y = aY + dY * t;
+      a.Z = aZ + dZ * t;
       return a;
     };
   }
